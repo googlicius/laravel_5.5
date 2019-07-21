@@ -40,6 +40,7 @@ Your task is to create a PHP application that is a feeds reader. The app can rea
 
  ### Generating Items from command line
   - Run `php artisan feeds:add {urls}` to store all items from given urls. For example: `php artisan feeds:add https://www.feedforall.com/sample.xml,http://www.rss-specifications.com/blog-feed.xml`
+  - To see the log, please open `storage/logs/laravel.log`.
 
  ### Start development server
   - Run `php artisan serve` and open the displaying url on browser, Example: `http://127.0.0.1:8000`
