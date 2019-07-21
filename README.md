@@ -25,7 +25,7 @@ Your task is to create a PHP application that is a feeds reader. The app can rea
 ## Setting up (By Nguyen Hai Dang)
 
 ### Requirements
- - Make sure you have read and follow the `Server Requirements` section of [Laravel 5.5 official]:(https://laravel.com/docs/5.5)
+ - Make sure you have read and follow the `Server Requirements` section of [Laravel 5.5 official](https://laravel.com/docs/5.5)
  - Make sure you have [Composer](https://getcomposer.org/) installed on your machine.
  - Make sure you have Mysql running on your machine.
  - For Javascript development, make sure you have installed `npm` or `yarn`.
