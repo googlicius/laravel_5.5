@@ -76,6 +76,6 @@ $categories = Category::all();
 
 @push('js')
 <script type="text/javascript">
-    var ItemList = new Item.List;
+    var ItemList = new App.Item.List;
 </script>
 @endpush

@@ -29,7 +29,6 @@ class Item extends Eloquent
 {
 	use \Illuminate\Database\Eloquent\SoftDeletes;
 	protected $table = 'item';
-	public $incrementing = false;
 
 	protected $casts = [
 		'id' => 'int',

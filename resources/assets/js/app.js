@@ -4,6 +4,12 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-import Item from "./item";
+import Item from './item'
+import Common from './common'
 
-window.Item = new Item();
+function App() {}
+
+App.prototype.Item = new Item()
+App.prototype.Common = new Common()
+
+window.App = new App()

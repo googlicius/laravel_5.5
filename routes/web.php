@@ -14,3 +14,5 @@
 Route::redirect('/', '/item');
 
 Route::resource('/item', 'ItemController');
+
+Auth::routes();
